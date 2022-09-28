@@ -1,0 +1,50 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+
+}
+
+nav {
+	text-align: ;
+}
+
+nav a{
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+}
+
+header{
+	padding: 30px;
+	background-image: url("img/imagen1.jpg");
+	background-position: left;
+	background-size: 2000px;
+}
+
+h2{
+	padding-top: 50px;
+	text-align: center;
+	background-color: white;
+}
+
+footer{
+
+	background-color: lightgrey;
+	padding: 20px;
+}
+
+
+.flex-container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.flex-container div{
+	margin: 50px ;
+}
